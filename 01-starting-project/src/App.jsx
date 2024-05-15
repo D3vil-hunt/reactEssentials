@@ -1,3 +1,4 @@
+import { MainGoal } from "./MainGoal ";
 function Header() {
   return (
   <header>
@@ -15,6 +16,7 @@ function App() {
   return (
     <div>
       <Header></Header>
+      <MainGoal></MainGoal>
       <main>
         <h2>Time to get started!</h2>
       </main>
